@@ -35,3 +35,17 @@ h2 {
 #bio-image {
     float: left;
 }
+/* set css individually */
+#main-bio {
+    width: 70%;
+}
+
+#contact-info {
+    width: 30%;
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
