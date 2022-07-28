@@ -1,30 +1,37 @@
-body{
+body {
     background-color: #efeee7;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333333;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    line-height: 150%;
 }
-header{
+
+header {
     background-color: #333333;
 }
-h1{
+
+h1 {
+    padding: 20px 0;
     color: #eee;
     font-size: 28px;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
 }
-h2{
+
+h2 {
     font-size: 24px;
 }
-.container{
+
+.container {
     width: 1024px;
     margin: 0 auto;
 }
-#main-bio{
-    float: left;
-}
-#contact-info{
-    float: left;
-}
-#bio-image{
+/* grouped all id in one by using commas */
+#main-bio,
+#contact-info,
+#bio-image {
     float: left;
 }
